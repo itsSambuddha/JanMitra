@@ -1,0 +1,10 @@
+{
+  "Water Leakage": {
+    "department": "Public Health Engineering",
+    "state": "Meghalaya",
+    "steps": ["Contact local PHED Office", "File complaint on Megrb portal", "Get grievance ID"],
+    "link": "https://megrb.gov.in",
+    "contact": "0364-250-XXXX"
+  }
+  
+}
