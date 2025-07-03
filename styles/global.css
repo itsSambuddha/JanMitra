@@ -41,3 +41,18 @@ footer {
   background: #ddd;
 }
 
+#home-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  background: #004d40;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+#home-button:hover {
+  background: #002e27;
+}

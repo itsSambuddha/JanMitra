@@ -1,20 +1,150 @@
+/* Global resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #00695c;
+  color: #fff;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* Dropdown Styling */
+select {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto 2rem auto;
+  display: block;
+}
+
+/* Grid layout */
+#service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Service card */
 .service-card {
   background: white;
-  padding: 1rem;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
 
 .service-card:hover {
-  background: #f1f1f1;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
 }
 
+.service-card h3 {
+  color: #004d40;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.service-card p {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+/* Details section */
 #service-details {
   background: #fff;
   padding: 1.5rem;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 1px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+#service-details h2 {
+  margin-bottom: 1rem;
+  color: #006064;
+}
+
+#service-details h4 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  color: #333;
+}
+
+#service-details ul,
+#service-details ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#service-details li {
+  margin-bottom: 0.5rem;
+}
+
+#service-details a {
+  display: inline-block;
   margin-top: 1rem;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.15);
+  color: #00796b;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px dashed #00796b;
+}
+
+#service-details a:hover {
+  color: #004d40;
+  border-color: #004d40;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1rem;
+  }
+}
+
+#home-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  background: #004d40;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+#home-button:hover {
+  background: #002e27;
 }

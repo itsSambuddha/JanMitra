@@ -1,0 +1,135 @@
+{
+  "Uttar Pradesh": [
+    {
+      "id": "rti",
+      "title": "Right to Information (RTI)",
+      "category": "Governance",
+      "steps": [
+        "Visit https://rtionline.gov.in",
+        "Register and login",
+        "Select department and fill RTI form",
+        "Pay ₹10 online via SBI"
+      ],
+      "documents": ["Aadhar", "Postal Order ₹10 or Netbanking"],
+      "link": "https://rtionline.gov.in"
+    },
+    {
+      "id": "income-cert",
+      "title": "Income Certificate",
+      "category": "Identity",
+      "steps": [
+        "Go to edistrict.up.gov.in",
+        "Login or register",
+        "Fill the online form and upload docs",
+        "Track status via application ID"
+      ],
+      "documents": ["Aadhar", "Ration Card", "Self-declaration"],
+      "link": "https://edistrict.up.gov.in"
+    }
+    
+  ],
+  "Delhi": [
+        {
+      "id": "rti",
+      "title": "Right to Information (RTI)",
+      "category": "Governance",
+      "steps": [
+        "Visit https://rtionline.gov.in",
+        "Register and login",
+        "Select department and fill RTI form",
+        "Pay ₹10 online via SBI"
+      ],
+      "documents": ["Aadhar", "Postal Order ₹10 or Netbanking"],
+      "link": "https://rtionline.gov.in"
+    },
+    {
+      "id": "caste-cert",
+      "title": "Caste Certificate",
+      "category": "Identity",
+      "steps": [
+        "Visit https://edistrict.delhigovt.nic.in",
+        "Select 'SC/ST/OBC Certificate'",
+        "Upload documents, submit",
+        "Track via acknowledgement number"
+      ],
+      "documents": ["Aadhar", "Proof of caste", "Ration Card"],
+      "link": "https://edistrict.delhigovt.nic.in"
+    }
+   
+  ],
+
+  "Meghalaya": [
+  {
+    "id": "income-certificate",
+    "title": "Income Certificate",
+    "category": "Identity",
+    "steps": [
+      "Visit https://megedistrict.gov.in",
+      "Register or login using your mobile/email",
+      "Select 'Apply for Income Certificate'",
+      "Enter income, family, and occupation details",
+      "Upload documents and submit",
+      "Download certificate after verification"
+    ],
+    "documents": ["Aadhar", "Ration Card", "Self-declaration", "Bank statement (if any)"],
+    "link": "https://megedistrict.gov.in"
+  },
+  {
+    "id": "scheduled-tribe-cert",
+    "title": "Scheduled Tribe Certificate",
+    "category": "Identity",
+    "steps": [
+      "Go to https://megedistrict.gov.in",
+      "Login and select 'Scheduled Tribe Certificate'",
+      "Provide personal and ancestral details",
+      "Upload supporting documents and photo",
+      "Submit and track through application ID"
+    ],
+    "documents": ["Aadhar", "Father's ST Certificate", "School Certificate", "Voter ID"],
+    "link": "https://megedistrict.gov.in"
+  },
+  {
+    "id": "birth-certificate",
+    "title": "Birth Certificate",
+    "category": "Vital Records",
+    "steps": [
+      "Visit https://megedistrict.gov.in",
+      "Login and go to 'Birth Certificate' service",
+      "Fill birth details, parent info, hospital details",
+      "Upload hospital/birth proof",
+      "Submit for processing and download later"
+    ],
+    "documents": ["Hospital Discharge Slip", "Parent Aadhar", "Birth Record (if issued)"],
+    "link": "https://megedistrict.gov.in"
+  },
+  {
+    "id": "resident-certificate",
+    "title": "Permanent Resident Certificate (PRC)",
+    "category": "Identity",
+    "steps": [
+      "Go to https://megedistrict.gov.in",
+      "Login and click on 'Resident Certificate'",
+      "Enter address history, proof of stay, etc.",
+      "Upload supporting documents",
+      "Submit and download PRC when ready"
+    ],
+    "documents": ["Aadhar", "School Certificate", "Electricity/Water Bill", "Ration Card"],
+    "link": "https://megedistrict.gov.in"
+  },
+  {
+    "id": "employment-registration",
+    "title": "Employment Exchange Registration",
+    "category": "Employment",
+    "steps": [
+      "Visit https://megedistrict.gov.in or nearest Employment Office",
+      "Login or register account",
+      "Fill qualification and skill details",
+      "Upload marksheets, ID proof, and photo",
+      "Submit and get Employment ID"
+    ],
+    "documents": ["Marksheet", "Aadhar", "Caste/Resident Proof", "Photo"],
+    "link": "https://megedistrict.gov.in"
+  }
+]
+
+}
